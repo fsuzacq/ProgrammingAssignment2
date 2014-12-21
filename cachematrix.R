@@ -3,6 +3,8 @@
 ## to avoid computing it again.
 
 ## Creates a cached matrix, that holds the result of the inverted matrix
+## Returns a list containing 4 functions: one to set matrix data, one to retrieve it,
+## other to set the inverse of the setted matrix, and other to retrieve the inversed matrix
 
 makeCacheMatrix <- function(x = matrix()) {
     ## Holds the value of the inverted matrix
